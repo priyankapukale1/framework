@@ -33,7 +33,7 @@ public class BaseTest {
 			@Optional("no") String grid,
 			@Optional("http://192.168.0.120:4444") String gridURL,
 			@Optional("chrome") String browser, 
-			@Optional("http://www.google.com") String appURL,
+			@Optional("https://opensource-demo.orangehrmlive.com") String appURL,
 			@Optional("10") String ITO,
 			@Optional("10") String ETO
 			) throws MalformedURLException

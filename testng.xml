@@ -5,7 +5,7 @@
 	  <parameter name="grid" value="no"/>
 	  <parameter name="gridURL" value="http://192.168.0.120:4444"/>
 	  <parameter name="browser" value="chrome"/>
-	  <parameter name="appURL" value="http://www.gmail.com"/>
+	  <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com"/>
 	  <parameter name="ITO" value="10" />
 	  <parameter name="ET0" value="9" />
     <packages>
