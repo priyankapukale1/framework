@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser=chrome]]>
+    </line>
+    <line>
+      <![CDATA[Preconditionmethod]]>
+    </line>
+    <line>
+      <![CDATA[Set ITO10]]>
+    </line>
+    <line>
+      <![CDATA[EnterURL]]>
+    </line>
+    <line>
+      <![CDATA[Maximise the browser]]>
+    </line>
+    <line>
+      <![CDATA[Set ETO10]]>
+    </line>
+    <line>
+      <![CDATA[Rowcount:2]]>
+    </line>
+    <line>
+      <![CDATA[Columncount:4]]>
+    </line>
+    <line>
+      <![CDATA[Data:Akshara]]>
+    </line>
+    <line>
+      <![CDATA[Data:]]>
+    </line>
+    <line>
+      <![CDATA[test demo...]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-06T17:07:42 IST" name="Default suite" finished-at="2023-11-06T17:07:49 IST" duration-ms="7298">
+    <groups>
+    </groups>
+    <test started-at="2023-11-06T17:07:42 IST" name="Default test" finished-at="2023-11-06T17:07:49 IST" duration-ms="7298">
+      <class name="script.DemoTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T17:07:42 IST" name="preCondition" finished-at="2023-11-06T17:07:48 IST" duration-ms="6276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.0.120:4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser=chrome]]>
+            </line>
+            <line>
+              <![CDATA[Preconditionmethod]]>
+            </line>
+            <line>
+              <![CDATA[Set ITO10]]>
+            </line>
+            <line>
+              <![CDATA[EnterURL]]>
+            </line>
+            <line>
+              <![CDATA[Maximise the browser]]>
+            </line>
+            <line>
+              <![CDATA[Set ETO10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T17:07:48 IST" name="testDemo" finished-at="2023-11-06T17:07:49 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Rowcount:2]]>
+            </line>
+            <line>
+              <![CDATA[Columncount:4]]>
+            </line>
+            <line>
+              <![CDATA[Data:Akshara]]>
+            </line>
+            <line>
+              <![CDATA[Data:]]>
+            </line>
+            <line>
+              <![CDATA[test demo...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T17:07:49 IST" name="postCondition" finished-at="2023-11-06T17:07:49 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDemo status=SUCCESS method=DemoTest.testDemo()[pri:0, instance:script.DemoTest@72967906] output=Rowcount:2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
