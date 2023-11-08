@@ -20,30 +20,15 @@
       <![CDATA[Set ETO10]]>
     </line>
     <line>
-      <![CDATA[Rowcount:2]]>
-    </line>
-    <line>
-      <![CDATA[Columncount:4]]>
-    </line>
-    <line>
-      <![CDATA[Data:Akshara]]>
-    </line>
-    <line>
-      <![CDATA[Data:]]>
-    </line>
-    <line>
-      <![CDATA[test demo...]]>
-    </line>
-    <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-06T17:07:42 IST" name="Default suite" finished-at="2023-11-06T17:07:49 IST" duration-ms="7298">
+  <suite started-at="2023-11-07T13:09:38 IST" name="Default suite" finished-at="2023-11-07T13:09:54 IST" duration-ms="16088">
     <groups>
     </groups>
-    <test started-at="2023-11-06T17:07:42 IST" name="Default test" finished-at="2023-11-06T17:07:49 IST" duration-ms="7298">
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T17:07:42 IST" name="preCondition" finished-at="2023-11-06T17:07:48 IST" duration-ms="6276" status="PASS">
+    <test started-at="2023-11-07T13:09:38 IST" name="Default test" finished-at="2023-11-07T13:09:54 IST" duration-ms="16088">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@2f9f7dcf]" started-at="2023-11-07T13:09:38 IST" name="preCondition" finished-at="2023-11-07T13:09:50 IST" duration-ms="12555" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +47,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[https://opensource-demo.orangehrmlive.com]]>
               </value>
             </param>
             <param index="4">
@@ -97,30 +82,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T17:07:48 IST" name="testDemo" finished-at="2023-11-06T17:07:49 IST" duration-ms="853" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@2f9f7dcf]" started-at="2023-11-07T13:09:50 IST" name="testValidLogin" finished-at="2023-11-07T13:09:54 IST" duration-ms="3285" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Rowcount:2]]>
-            </line>
-            <line>
-              <![CDATA[Columncount:4]]>
-            </line>
-            <line>
-              <![CDATA[Data:Akshara]]>
-            </line>
-            <line>
-              <![CDATA[Data:]]>
-            </line>
-            <line>
-              <![CDATA[test demo...]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testDemo -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T17:07:49 IST" name="postCondition" finished-at="2023-11-06T17:07:49 IST" duration-ms="128" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@2f9f7dcf]" started-at="2023-11-07T13:09:54 IST" name="postCondition" finished-at="2023-11-07T13:09:54 IST" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDemo status=SUCCESS method=DemoTest.testDemo()[pri:0, instance:script.DemoTest@72967906] output=Rowcount:2]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@2f9f7dcf] output={null}]]]>
               </value>
             </param>
           </params>
@@ -130,7 +100,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
